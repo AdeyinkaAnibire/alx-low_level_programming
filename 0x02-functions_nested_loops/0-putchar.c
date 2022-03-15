@@ -1,19 +1,20 @@
 #include "main.h"
 /**
- * main - check the code for Holberton School students.
+ * main - Entry point
  *
- * Return: Always 0.
+ * this program prints _putchar followed by a new line
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char holberton[9] = "Holberton";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(holberton[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
