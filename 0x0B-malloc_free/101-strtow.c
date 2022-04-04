@@ -55,5 +55,14 @@ char **strtow(char *str)
 					ch_free_grid(aout, i);
 					return (NULL);
 				}
-
+				break;
+			}
+		}
+		for (j = 0; a1 <= c; a1++, j++)
+			aout[i][j] = str[a1];
+		aout[i][j] = '\0';
+	}
+	aout[i] = NULL;
+	return (aout);
+}
 
